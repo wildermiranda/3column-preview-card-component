@@ -34,5 +34,5 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/wildermiranda)
+- Frontend Mentor - [@wildermiranda](https://www.frontendmentor.io/profile/wildermiranda)
 
