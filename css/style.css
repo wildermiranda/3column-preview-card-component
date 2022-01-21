@@ -8,8 +8,9 @@
 }
 
 :root {
-    --font1: 'Lexend Deca', sans-serif;
-    --font2: 'Big Shoulders Display', cursive;
+    --font1: Arial, Helvetica, sans-serif;
+    --font2: 'Lexend Deca', sans-serif;
+    --font3: 'Big Shoulders Display', cursive;
 } 
 
 
@@ -17,6 +18,7 @@
 
 html, body {
     background-color: hsl(0, 0%, 95%);
+    font-family: var(--font1);
 }
 
 main {
@@ -33,7 +35,7 @@ main {
 section {
     max-width: 250px;
     padding: 2.2rem;
-    font-family: var(--font1);
+    font-family: var(--font2);
     font-size: 15px;
 }
 
@@ -42,7 +44,7 @@ section h1 {
     padding-bottom: 1rem;
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
-    font-family: var(--font2);
+    font-family: var(--font3);
     font-size: 3em;
 }
 
@@ -81,12 +83,12 @@ button {
     padding: 15px 25px;
     border: none;
     border-radius: 2rem;
-    font-family: var(--font1);
+    font-family: var(--font2);
 }
 
 footer {
     padding-bottom: 30px;
-    font-family: var(--font1);
+    font-family: var(--font2);
     font-weight: 300;
     font-size: 0.8em;
     color: #212121;
