@@ -17,16 +17,19 @@
 
 
 html, body {
+    width: 100%;
+    min-height: 100vh;
     background-color: hsl(0, 0%, 95%);
     font-family: var(--font1);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 main {
-    width: 100%;
-    min-height: 100vh;
-    padding: 3rem 0;
-    background-color: hsl(0, 0%, 95%); 
-    
+    padding-top: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,17 +89,18 @@ button {
     font-family: var(--font2);
 }
 
-footer {
-    padding-bottom: 30px;
-    font-family: var(--font2);
-    font-weight: 300;
-    font-size: 0.8em;
-    color: #212121;
 
-    display: flex;
-    justify-content: center;
-}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(219, 29%, 14%);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 
 
 @media screen and (max-width: 765px) {
