@@ -87,6 +87,7 @@ button {
     border: none;
     border-radius: 2rem;
     font-family: var(--font2);
+    background-color: hsl(0, 0%, 95%);
 }
 
 
